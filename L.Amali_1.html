@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LATIHAN AMALI 1</title>
+</head>
+<style>
+    body {font-family: Arial, Helvetica, sans-serif;}
+    * {box-sizing: border-box;}
+        
+    input[type=text],input[type=number], select, textarea {
+      width: 100%;
+      padding: 12px;
+      border: 1px solid #ccc;
+      border-radius: 4px;
+      box-sizing: border-box;
+      margin-top: 6px;
+      margin-bottom: 16px;
+      resize: vertical;
+    }
+    * {box-sizing: border-box;}
+    
+    body {
+      margin: 0;
+      font-family: Arial, Helvetica, sans-serif;
+    }
+    
+    .topnav {
+      overflow: hidden;
+      background-color: #e9e9e9;
+    }
+    
+    .topnav a {
+      float: left;
+      display: block;
+      color: black;
+      text-align: center;
+      padding: 14px 16px;
+      text-decoration: none;
+      font-size: 17px;
+    }
+    
+    .topnav a:hover {
+      background-color: #ddd;
+      color: black;
+    }
+    
+    .topnav a.active {
+      background-color: #2196F3;
+      color: white;
+    }
+</style>
+<body bgcolor="pink" >
+    <div class="topnav">
+        <a href="L.Amali_1.html">AMALI 1</a>
+        <a href="L.Amali_2.html">AMALI 2</a>
+        <a href="L.Amali_3.html">AMALI 3</a>
+        <a href="L.Amali_4.html">AMALI 4</a>
+    </div><br>
+    <br>
+    <center>
+        <form action="">
+            <table width="60%" border="1" style="background-color:bisque;">
+                <tr>
+                    <th style="text-align: center;" colspan="2" ><h2>User Form</h2></th>
+                </tr>
+                <tr>
+                    <th><label for="id">Enter Name</label></th>
+                    <td><input type="text" id="enter" name="name"></td>
+                </tr>
+                <tr>
+                    <th><label for="Password">Enter Password</label></th>
+                    <td><input type="password" id="Password" name="pelajar" size="97"><br>
+                </tr>
+                <tr>
+                    <th>Enter Address</th>  
+                    <td><textarea name="alamat" id="terkini" rows="5" cols="100" ></textarea></td>
+                </tr>
+                <tr>
+                    <th><label for="hobi">Select Game</label></th>
+                    <td><input type="checkbox" id="hoc" name="game1" value="key" >
+                    <label for="key">Hockey</label><br>
+                    <input type="checkbox" id="foot" name="game2" value="ball" >
+                    <label for="ball">Football</label><br>
+                    <input type="checkbox" id="racket" name="game3" value="badminton" >
+                    <label for="badminton">Badminton</label><br>
+                    <input type="checkbox" id="crick" name="game4" value="ket" >
+                    <label for="ket">Cricket</label><br>
+                    <input type="checkbox" id="Volley" name="game5" value="ball" >
+                    <label for="volley">Volleyball</label><br></td>
+                </tr>
+                <tr>
+                    <th>Gender</th>
+                    <td><input type="radio" name="gender" value="lelaki" id="gender1" >
+                    <label for="gender1">Lelaki</label>
+                    <input type="radio" name="gender" value="perempuan" id="gender2" >
+                    <label for="gender2">Perempuan</label></td>
+                </tr>
+                <tr>
+                    <th><label for="age">Select ur age</label></th>
+                    <td><select name="age" id="ur">
+                        <option value="select" name="select" id="select1" selected disabled >Select</option>
+                        <option value="limabelas">15</option>
+                        <option value="enambelas">16</option>
+                        <option value="tujuhbelas">17</option>
+                        <option value="lapanbelas">18</option>
+                        <option value="sembilanbelas">19</option>
+                        <option value="duapuluh">20</option>
+                        <option value="duasatu">21</option>
+                    </select>
+                </tr>
+                <tr>
+                    <th style="text-align: left;" colspan="2" ><input type="file"></th>
+                </tr>
+                <tr>
+                    <th style="text-align: center;" colspan="2" >
+                    <input type="submit" value="Click Me" name="Me" id="me" >
+                    <input type="reset" value="Reset" name="delete" id="DELETE" >
+                    <input type="submit" value="Submit Form" name="submit" id="form" >
+                
+                    </th>
+
+                </tr>
+            </table>
+        </form>
+    </center>
+</body>
+</html>
