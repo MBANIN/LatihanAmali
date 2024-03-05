@@ -1,0 +1,259 @@
+/* -----------------------------------------------------HOMEPAGE------------------------------------------------------------ */
+body {
+    margin: auto;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.backgroundhome {
+    background-image: url("gambar/background.jpg");
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover; 
+}
+
+.logo {
+    margin-right: auto;
+    padding-left: 50px;
+    width: 90px;
+    height: 40px;
+}
+
+nav {
+    display: flex;
+    justify-content: flex-end;
+    width: 96%;
+    height: 30px;
+    margin-top: 10px;
+    margin-right: 30px;
+}
+  
+nav > a {
+    width: 90px;
+    line-height: 30px;
+    text-align: center;
+    font-size: 20px;
+    text-decoration: none;
+    margin-right: 30px;
+}   
+
+a:link, a:visited {
+    color: #FFFFFF;
+}
+
+a:hover, a:active {
+    color: #ff0000;
+}
+
+main p {
+    background: -webkit-linear-gradient(#ffffff, #ff0000);
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-size: 50px;
+    font-weight: bold;
+    margin-top: 190px;
+    margin-left: 80px;
+    line-height: 80px;
+    letter-spacing: 8px;
+}
+
+/* --------------------------------------------------------ABOUT------------------------------------------------------------ */
+
+.backgroundabout {
+    background-color: #000000;
+}
+
+.content {
+    width: 600px;
+    height: 600px;
+    margin-top: 39px;
+    margin-left: 150px;
+    float: left ;
+}
+
+#title {
+    color: #FFFFFF;
+    font-size: 50px;
+    float: left;
+    width: 400px;
+}
+
+#explanation {
+    color: #FFFFFF;
+    font-size: 17px;
+    text-align: justify;
+    width: 470px;
+    margin-right: 490px;
+    float: left;
+}
+
+.image {
+    float: right;
+    background-color: slateblue;
+    width: 200px;
+    height: 400px;
+    margin-top: 100px;
+    margin-right: 160px;
+}
+
+/* ------------------------------------------------------CONTACT------------------------------------------------------------ */
+
+.backgroundcontact {
+    background-color: #000000;
+}
+
+.contentcontact {
+    width: 600px;
+    height: 600px;
+    margin-top: 39px;
+    margin-left: 150px;
+    float: left ;
+}
+
+#titlecontact {
+    color: #FFFFFF;
+    font-size: 50px;
+    float: left;
+    width: 400px;
+}
+
+#explanationcontact {
+    color: #FFFFFF;
+    font-size: 18px;
+    text-align: justify;
+    width: 470px;
+    margin-right: 490px;
+    float: left;
+    letter-spacing: 3px;
+    line-height: 30px;
+}
+
+.containerform {
+    max-width: 650px;
+    padding: 28px;
+    margin: 0 28px;
+    overflow: hidden;
+    color: #FFFFFF;
+    margin-top: 50px;
+    margin-right: 100px;
+}
+
+.contentform {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 20px 0;
+}
+
+.input-box {
+    display: flex;
+    flex-wrap: wrap;
+    width: 50%;
+    padding-bottom: 15px;
+}
+
+.input-box:nth-child(2n) {
+    justify-content: end;
+}
+
+.input-box label {
+    width: 95%;
+    margin: 5px 0;
+}
+
+.input-box input {
+    width: 95%;
+    height: 40px;
+    color: #FFFFFF;
+    background-color: #000000;
+    border: none;
+    border-bottom: 2px solid white;
+}
+
+textarea {
+    position: absolute;
+    margin-top: 30px;
+    width: 460px;
+    color: #FFFFFF;
+    background-color: #000000;
+    border: none;
+    border-bottom: 2px solid white;
+}
+
+.button-contact {
+    width: 180px;
+    margin: 15px 0;
+}
+
+.button-contact input {
+    width: 100%;
+    margin-top: 180px;
+    padding: 10px;
+    display: block;
+    color: #ffffff;
+    font-size: 20px;
+    background-color: rgb(0, 0, 0);
+    border: 2px solid white;
+    cursor: pointer;
+}
+
+.button-contact input:hover {
+    background-color: #000000;
+    color: #ff0000;
+    border: 2px solid red;
+}
+
+/* -----------------------------------------------------SERVICES------------------------------------------------------------ */
+
+.background-service {
+    background-color: #000000;
+}
+
+.services p {
+    text-align: center;
+    color: #ffffff;
+    font-size: 1.1rem;
+}
+
+.service-content, h3 {
+    color: #ffffff;
+    font-size: 1.1rem;
+    margin: 14px 0;
+}
+
+.service-heading {
+    margin-bottom: 0;
+    text-align: center;
+    color: #ffffff;
+}
+
+.container-service {
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 30px;
+    justify-content: space-around;
+}
+
+.content-service {
+    border: 2px solid white;
+    max-width: 25%;
+    width: 100%;
+    padding: 15px;
+    text-align: center;
+    align-items: center;   
+    margin-bottom: 30px;
+    cursor: pointer;
+}
+
+.service-icon {
+    border: 2px solid white;
+    width: 60px;
+    height: 60px;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.content-service:hover {
+    background-color: #000000;
+    border: 2px solid red;
+}
